@@ -202,7 +202,7 @@ def upgrade_choice(host_name: str):
             hp = int(round(hp))
             eclipse_de = de
 
-        elif "Sugar, Tea, and Rum" in selected:
+        elif "Sugar, Tea" in selected:
             sugar_tea_and_rum = True
             sta += 5
             hp += 10
@@ -230,10 +230,10 @@ def upgrade_choice(host_name: str):
         elif "Townfolk" in selected:
             townfolk = True
 
-        elif "Deaf Man Music" in selected:
+        elif "Deaf Man's Music" in selected:
             deaf_man_music = True
 
-        elif "Infernum and Polaris" in selected:
+        elif "Infernum & Polaris" in selected:
             infernum_and_polaris = True
             sta_gain = 5
 
@@ -282,7 +282,7 @@ def upgrade_choice(host_name: str):
             de = int(round(de * 0.75))
             hp = int(round(hp * 1.1))
 
-        elif "Tisha and Brusha" in selected:
+        elif "Tisha & Brusha" in selected:
             tisha_and_brusha = True
 
         elif "Joy" in selected:
@@ -335,17 +335,17 @@ def upgrade_choice(host_name: str):
         elif "Aspect Of Comet" in selected:
           aspect_of_comet = True
         elif "Aspect Of Stan" in selected:
-          utils.hp += 1
+          hp += 1
           aspect_of_stan = True
         elif "Aspect Of Light" in selected:
           aspect_of_light = True
-        elif "Aspect Of Dark":
+        elif "Aspect Of Dark" in selected:
           aspect_of_dark = True
-        elif "Aspect Of SH4P35H1FT3R":
+        elif "Aspect Of SH4P35H1FT3R" in selected:
           aspect_of_shapeshifter = True
-        elif "Aspect Of Starz":
+        elif "Aspect Of Starz" in selected:
           aspect_of_starz = True
-        elif "Aspect Of Pintr":
+        elif "Aspect Of Pintr" in selected:
           aspect_of_pintr = True
         return selected
 

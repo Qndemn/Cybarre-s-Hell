@@ -457,6 +457,7 @@ def process_player():
     elif hosts.host == "Artifex":
       utils.fast_print("You Regain Your Resources.")
       utils.damage = random.randint(5, 10)
+      utils.hp += utils.damage
       if utils.starry_days:
         if utils.starry_turn == None or utils.starry_turn == False:
           utils.starry_turn = True

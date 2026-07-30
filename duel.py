@@ -734,9 +734,7 @@ o=========o
     process_dummy_choice()
     if eclipse_hp <= 0 or eclipse_balance <= 0:
       print("\n"*999)
-      utils.slow_print("<<| I Assume You Will Not Return. I Assume I Will Be Forgotten. No. I KNOW. You Won't Come Back. None Of You Will, Ungrateful Brats That You Are. I Give You JOY. I Give You LAUGHTER. And What Do I Get In Return? I Don't Ask For Much... But You Matter More, Right? Have Fun With Your... F...friends..s...s, G, L, I, W...whi...whichev- |>>")
-      time.sleep(1)
-      utils.fast_print("ℚ Oh, how the mighty have fallen. Well... 'mighty' might be an overstatement. Guten Joben, friend...en? I don't speak german")
+      utils.slow_print("<<| Fair game. Rise again and face me once more under a new guise, stripped away as it will be, but new all the same. Goodbye, my fellow nobleman... |>>")
       time.sleep(2)
       win()
     process_eclipse_attack()
